@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(236, 107, 107);
+    margin: 200px;
+    font-family: georgia;
+}
+
+h1 {
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+    padding: 10px;
+    
+}
+
+#sign-in-box {
+    background-color: rgb(244, 239, 239);
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px 0px 20px;
+}
+
+.user {
+    border: solid rgb(216, 213, 213) .1em;
+    padding: 15px 200px 15px 15px;
+    margin: 10px;
+}
+
+.pw {
+    border: solid rgb(216, 213, 213) .1em;
+    padding: 15px 200px 15px 15px;
+    margin: 10px;
+}
+
+.btn {
+    display: flex;
+    background-color: rgb(57, 217, 249);
+    color: white;
+    align-self: center;
+    margin: 20px;
+    padding: 10px 20px;
+    border: hidden;
+}
+.cb {
+    float: left;
+    border: hidden;
+    display: flex;
+}
+
+p {
+    margin-top: 0px;
+    color: rgb(148, 141, 141);
+    float: right;
+    margin-right: 265px;
+}
