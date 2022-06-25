@@ -6,20 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-in Forms</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="sign-in-box">
         <h1>Have an account? Sign in</h1>
         <div>
-            <input type="username" class="user" placeholder="Username" />
+            <input type="username" placeholder="Username" />
         </div>
         <div>
-            <input type="password" class="pw" placeholder="Password" />
+            <input type="password" placeholder="Password" />
         </div>
-        <button class="btn">LOGIN</button>
+        <button id="button">LOGIN</button>
         <div id="bottom-box">
-            <input class="cb" type="checkbox" /> 
-            <p>Remember me</p>
+            <input type="checkbox" id="cb" />
+            <label for="cb">Remember me</label>
         </div>
     </div>
 </body>
